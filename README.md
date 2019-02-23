@@ -6,12 +6,15 @@ This image contains Objection tool for Android application instrumentation.
 
 ### Installation
 ```bash
+git clone git@github.com:va1da5/docker-objection-for-android.git
+cd docker-objection-for-android
 ./build.sh
 ```
 
 ### Usage
 ```
-$ ./run.sh 
+./run.sh 
+
 [?] Frida Gadgets/Servers: https://github.com/frida/frida/releases
 [?] Objection Documentation: https://github.com/sensepost/objection/wiki
 [?] ADB Cheat Sheet: https://devhints.io/adb
